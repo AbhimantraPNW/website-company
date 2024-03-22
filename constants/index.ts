@@ -6,15 +6,8 @@ export const NAV_LINKS = [
     { href: '/teams', key: 'teams', label: 'Teams' },
   ];
   
-  // CAMP SECTION
-  export const PEOPLE_URL = [
-    '/person-1.png',
-    '/person-2.png',
-    '/person-3.png',
-    '/person-4.png',
-  ];
   
-  // FEATURES SECTION
+  // TESTI SECTION
   export const TESTIMONI = [
     {
       name: 'Citra Kirana',

@@ -30,7 +30,7 @@ module.exports = {
         },
       },
       backgroundImage: {
-        'bg-img-1': "url('/img-ptr-1.jpeg')",
+        'bg-img-1': "url('/store.JPG')",
         'bg-img-2': "url('/img-ptr-2.JPG')",
         'feature-bg': "url('/feature-bg.png')",
         pattern: "url('/pattern.png')",
