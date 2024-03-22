@@ -4,7 +4,7 @@ export const CustomerList = () => {
   return (
     <div>
       <div className="flexCenter max-container gap-10 relative w-full mt-10 flex-wrap">
-        <div className="font-bold text-center">
+        <div className="font-bold text-center hidden lg:inline-block">
           <Image
             src="/c-awor.PNG"
             alt="Awor Coffee"
@@ -84,7 +84,7 @@ export const CustomerList = () => {
           />
           <p style={{ fontSize: "12px" }}>IG : @SIMPLII.COFFEE</p>
         </div>
-        <div className="font-bold text-center">
+        <div className="font-bold text-center hidden lg:inline-block">
           <Image
             src="/c-semusim.PNG"
             alt="Semusim Coffee"

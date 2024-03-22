@@ -5,7 +5,7 @@ const Products = () => {
     <section className="flexCenter flex-col">
       <div className="padding-container max-container w-full mt-[-20px]">
 
-        <p className="uppercase underline regular-18 mb-7 text-green-50 hidden sm:block">
+        <p className="uppercase underline regular-18 mb-7 text-green-50 hidden sm:block mt-10">
           We are here for you
         </p>
         <div className="flex flex-wrap justify-between gap-5 lg:gap-10">
