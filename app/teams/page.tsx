@@ -28,13 +28,6 @@ const Teams = async () => {
 
   return (
     <main
-      className="h-full"
-      style={{
-        backgroundImage: `url('/LOGO_PATERA.png')`,
-        backgroundPosition: "center",
-        backgroundSize: "contain",
-        backgroundRepeat: "no-repeat",
-      }}
     >
      
         <h1 className="flexCenter text-3xl font-bold text-gray-30">Our Team</h1>
