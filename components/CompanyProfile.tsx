@@ -15,7 +15,7 @@ const Company = ({
 }: CompProps) => {
   return (
     <div
-      className={`h-full w-full min-w-[400px] ${backgroundImage} bg-cover bg-center bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}
+      className={`h-full w-full min-w-[300px] ${backgroundImage} bg-cover bg-center bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}
     >
       <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-8">
         <div className="flexCenter gap-4">
