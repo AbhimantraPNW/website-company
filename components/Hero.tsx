@@ -49,12 +49,14 @@ const Hero = () => {
           </p>
         </div>
         <div className="flex flex-col w-full gap-3 sm:flex-row">
-        <Link href="https://linktr.ee/paterapottery">
-        <Button type="button" title="Contact Us" variant="btn_green" />
-      </Link>
-      <Link href="/custom.pdf">
-        <Button type="button" title="Our Catalogue" variant="btn_dark_green" />
-      </Link>
+          <Link href='https://linktr.ee/paterapottery'>
+            <Button type="button" title="Contact Us" variant="btn_green" />
+          </Link>
+          
+          <Link href='/custom.pdf'>
+            <Button type="button" title="Our Catalogue" variant="btn_dark_green_outline" />
+          </Link>
+          
         </div>
       </div>
     </section>
