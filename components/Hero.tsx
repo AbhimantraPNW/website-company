@@ -48,7 +48,7 @@ const Hero = () => {
             </span>
           </p>
         </div>
-        <div className="flexCenter flex-col w-full gap-3 sm:flex-row">
+        <div className="flex flex-col w-full gap-3 sm:flex-row md:justify-center">
              <Button 
             type="button" 
             title="Contact Us" 
