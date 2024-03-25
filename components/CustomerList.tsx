@@ -15,7 +15,7 @@ export const CustomerList = () => {
           />
           <p style={{ fontSize: "12px" }}>IG : @AWOR.COFFEE</p>
         </div>
-        <div className="font-bold text-center">
+        <div className="font-bold text-center hidden lg:inline-block">
           <Image
             src="/c-awcoffee.jpg"
             alt="Aw Coffee"
