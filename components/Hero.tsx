@@ -18,10 +18,10 @@ const Hero = () => {
           height={50}
           className="absolute left-2 top-[-80px] w-10 lg:w-[75px]"
         /> */}
-        <h1 className="bold-40 lg:bold-62 xl:max-w-[600px]">
+        <h1 className="bold-40 lg:bold-62 xl:h-20 xl:max-w-[600px]">
         Local Artisans Pottery Based on Yogyakarta
         </h1>
-        <p className="regular-16 mt-6 text-gray-30 xl:max-w-[600px]">
+        <p className="regular-16 mt-6 text-gray-30 xl:h-30 xl:max-w-[600px]">
           We want to be on each of your journeys seeking the satisfaction of
           enjoying the next level of drinking. We can help you by our pottery cups to
           make your coffee taste more legit
