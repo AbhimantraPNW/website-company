@@ -15,7 +15,7 @@ export const CustomerList = () => {
           />
           <p style={{ fontSize: "12px" }}>IG : @AWOR.COFFEE</p>
         </div>
-        <div className="font-bold text-center hidden lg:inline-block">
+        <div className="font-bold text-center">
           <Image
             src="/c-awcoffee.jpg"
             alt="Aw Coffee"
@@ -26,7 +26,7 @@ export const CustomerList = () => {
           />
           <p style={{ fontSize: "12px" }}>IG : @AW.COFFEE</p>
         </div>
-        <div className="font-bold text-center hidden lg:inline-block">
+        <div className="font-bold text-center">
           <Image
             src="/c-eaterybykomma.PNG"
             alt="Eatery By Komma"
@@ -62,7 +62,7 @@ export const CustomerList = () => {
           />
           <p style={{ fontSize: "12px" }}>IG : @SEMUDAKOPI</p>
         </div>
-        <div className="font-bold text-center hidden lg:inline-block">
+        <div className="font-bold text-center">
           <Image
             src="/c-kedaiangkasa.PNG"
             alt="Kedai Angkasa"
@@ -97,7 +97,7 @@ export const CustomerList = () => {
         </div>
       </div>
 
-      <p className="justify-between bold-40 text-center mt-10 hidden lg:inline-block">
+      <p className="justify-between bold-40 text-center mt-10">
         And Many More
       </p>
     </div>
