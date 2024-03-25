@@ -5,7 +5,7 @@ import Link from "next/link";
 const Hero = () => {
 
   return (
-    <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row ">
+    <section className="max-container padding-container flex flex-col gap-20 pb-32 md:gap-28 lg:py-15 xl:flex-row ">
       {/* <div className="hero-map"  />  */}
 
       {/* LEFT */}
@@ -21,13 +21,13 @@ const Hero = () => {
         <h1 className="bold-40 lg:bold-62 xl:max-w-[600px]">
         Local Artisans Pottery Based on Yogyakarta
         </h1>
-        <p className="regular-16 mt-6 text-gray-30 xl:max-w-[600px]">
+        <p className="regular-16 mt-4 text-gray-30 xl:max-w-[600px]">
           We want to be on each of your journeys seeking the satisfaction of
           enjoying the next level of drinking. We can help you by our pottery cups to
           make your coffee taste more legit
         </p>
 
-        <div className="my-11 flex flex-wrap gap-5">
+        <div className="my-8 flex flex-wrap gap-3">
           <div className="flex items-center gap-2">
             {Array(5)
               .fill(1)

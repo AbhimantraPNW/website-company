@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Testimonial = () => {
   return (
-    <section className="flexCenter py-2 mt-40 ">
+    <section className="padding-container max-container flexCenter mt-36 ">
       <div className="flexCenter flex-col w-full lg:w-[80%]">
         <div className="relative">
           <h2 className="bold-40 lg:bold-64">Testimonial</h2>

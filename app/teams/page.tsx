@@ -32,7 +32,7 @@ const Teams = async () => {
      
         <h1 className="flexCenter text-3xl font-bold text-gray-30">Our Team</h1>
 
-        <div className="justify-center lg:flex flex-rows gap-12 mt-10">
+        <div className="padding-container max-container justify-center lg:flex flex-rows gap-12 mt-10">
           <div className="mb-8 lg:mb-0">
             <h1 className="text-xl font-semibold mb-2">Founder</h1>
             {results.map((item) => {

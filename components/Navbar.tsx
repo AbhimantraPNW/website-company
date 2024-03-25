@@ -72,7 +72,7 @@ const Navbar: React.FC = () => {
                 Home
               </a>
               <a
-                href="/aboutUs"
+                href="/aboutus"
                 className="text-gray-700 block px-4 py-2 text-sm"
                 role="menuitem"
                 id="menu-item-1"
