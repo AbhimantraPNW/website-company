@@ -5,7 +5,7 @@ import Link from "next/link";
 const Hero = () => {
 
   return (
-    <section className="max-container padding-container flex flex-col gap-20 pb-32 md:gap-28 lg:py-15 xl:flex-row ">
+    <section className="max-container padding-container flex flex-col gap-20 pb-32 md:gap-28 lg:py-15 xl:flex-row">
       {/* <div className="hero-map"  />  */}
 
       {/* LEFT */}
