@@ -1,4 +1,4 @@
-import CompanyProfile from "@/components/CompanyProfile";
+import Blog from "@/components/Blog";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Products from "@/components/Products";
@@ -9,9 +9,9 @@ export default function Home() {
     <>
     <Hero />
     {/* <CompanyProfile /> */}
+    <Blog />
     <Products />
     <Testimonial />
-    <Footer />
     </>
   );
 }

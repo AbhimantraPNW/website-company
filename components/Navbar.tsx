@@ -15,14 +15,14 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="flexBetween max-container padding-container relative z-30 py-1">
-        <Image src="logoo-new.svg" alt="logo" width={80} height={29} />
+    <nav className="flexBetween max-container padding-container bg-indigo-200 relative z-30 py-1">
+        <Image src="logoo-new.svg" alt="logo" width={70} height={70} />
       <ul className="hidden h-full gap-12 lg:flex mr-20">
         {NAV_LINKS.map((link) => (
           <Link
             href={link.href}
             key={link.key}
-            className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 mb-3 transition-all hover:font-bold"
+            className="regular-18 flexCenter cursor-pointer pb-1.5 mb-3 transition-all hover:font-bold hover:underline"
           >
             {link.label}
           </Link>
@@ -88,14 +88,6 @@ const Navbar: React.FC = () => {
                 Services
               </a>
               <form method="POST" action="/teams" role="none">
-                <button
-                  type="submit"
-                  className="text-gray-700 block w-full px-4 py-2 text-left text-sm"
-                  role="menuitem"
-                  id="menu-item-3"
-                >
-                  Teams
-                </button>
               </form>
             </div>
           </div>

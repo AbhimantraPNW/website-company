@@ -1,113 +1,109 @@
 import Button from "@/components/Button";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 
 const Services = () => {
   return (
-    <main>
-      <div className="flexCenter flex-col py-4 gap-5">
-        <span className="flexCenter text-4xl font-semibold text-gray-30">Our Services</span>
-        <div className=" padding-container max-container  flex flex-row">
-          <div className="bg-white flexCenter flex-wrap space-y-10 lg:space-y-0 lg:space-x-10">
-            <div className="max-w-2xl px-4 py-16 border rounded-xl shadow-md sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 lg:w-[45%]">
-              <h2 className="text-2xl font-bold tracking-tight items-center underline text-gray-700">
-                Custom Product
-              </h2>
+    <div className="max-w-2xl mx-auto">
+      <div
+        id="default-carousel"
+        className="relative rounded-lg overflow-hidden shadow-lg"
+        data-carousel="static"
+      >
+        <div className="relative h-80 md:h-96" data-carousel-inner>
+          <div className="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="/custom.jpg"
+              className="object-cover w-full h-full"
+              alt="Slide 1"
+            />
+            <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-xl font-semibold text-white md:text-2xl dark:text-gray-800">
+              First Slide
+            </span>
+          </div>
 
-              <div className="mt-6 grid grid-cols-1 gap-x-5 gap-y-10 lg:grid-cols-2">
-                <div className="group relative">
-                  <div className="aspect-h-1 aspect-w-1 max-container w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 lg:w-96">
-                    <img
-                      src="/c-semudakopi.PNG"
-                      alt="Custom Product"
-                      className="h-full w-full object-cover object-center lg:h-full"
-                    />
-                  </div>
-
-                  <div className="mt-4 flex justify-between">
-                    <div>
-                      <h3 className="text-sm text-gray-700">Description</h3>
-                      <p className="mt-1 text-sm text-gray-500">1. Pre order</p>
-                      <p className="mt-1 text-sm text-gray-500">
-                        2. Process 3-4 weeks
-                      </p>
-                      <p className="mt-1 text-sm text-gray-500">
-                        3. Free design cups
-                      </p>
-                      <p className="mt-1 text-sm text-gray-500">
-                        4. Min order 12pcs/type
-                      </p>
-                    </div>
-                  </div>
-                  <div className="ml-8 mt-5 text-xs text-gray-500">
-                    <p>More Design</p>
-                  </div>
-
-                  <div className="flex flex-col w-full gap-3 sm:flex-row">
-                    <Link href="/custom.pdf">
-                      <Button
-                        type="button"
-                        title="Catalogue"
-                        variant="btn_dark_green_outline"
-                      />
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="max-w-2xl px-4 py-16 border rounded-xl shadow-md sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 lg:w-[45%]">
-              <h2 className="text-2xl font-bold tracking-tight items-center underline text-gray-700">
-                Ready Stock
-              </h2>
-
-              <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 lg:grid-cols-2">
-                <div className="group relative">
-                  <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80 lg:w-96">
-                    <img
-                      src="/c-semudakopi.PNG"
-                      alt="Custom Product"
-                      className="h-full w-full object-cover object-center lg:h-full"
-                    />
-                  </div>
-
-                  <div className="mt-4 flex justify-between">
-                    <div>
-                      <h3 className="text-sm text-gray-700">Description</h3>
-                      <p className="mt-1 text-sm text-gray-500">
-                        1. Avalaible in store
-                      </p>
-                      <p className="mt-1 text-sm text-gray-500">
-                        2. Add 6.000 for logo
-                      </p>
-                      <p className="mt-1 text-sm text-gray-500">
-                        3. Free design cups (if ready)
-                      </p>
-                      <p className="mt-1 text-sm text-gray-500">
-                        4. No min order
-                      </p>
-                    </div>
-                  </div>
-                  <div className="ml-8 mt-5 text-xs text-gray-500">
-                    <p>More Design</p>
-                  </div>
-
-                  <div className="flex flex-col w-full gap-3 sm:flex-row">
-                    <Link href="/ready.pdf">
-                      <Button
-                        type="button"
-                        title="Catalogue"
-                        variant="btn_dark_green_outline"
-                      />
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="/ready_stock.jpg"
+              className="object-cover w-full h-full"
+              alt="Slide 2"
+            />
+            <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-xl font-semibold text-white md:text-2xl dark:text-gray-800">
+              Second Slide
+            </span>
           </div>
         </div>
+
+        <div
+          className="flex absolute bottom-5 left-1/2 z-30 -translate-x-1/2 space-x-2"
+          data-carousel-indicators
+        >
+          <button
+            type="button"
+            className="w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400 focus:outline-none focus:bg-gray-400 transition"
+          ></button>
+          <button
+            type="button"
+            className="w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400 focus:outline-none focus:bg-gray-400 transition"
+          ></button>
+        </div>
+
+        <button
+          type="button"
+          className="flex absolute top-1/2 left-3 z-40 items-center justify-center w-10 h-10 bg-gray-200/50 rounded-full hover:bg-gray-300 focus:outline-none transition"
+          data-carousel-prev
+        >
+          <svg
+            className="w-5 h-5 text-gray-600"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15 19l-7-7 7-7"
+            ></path>
+          </svg>
+        </button>
+        <button
+          type="button"
+          className="flex absolute top-1/2 right-3 z-40 items-center justify-center w-10 h-10 bg-gray-200/50 rounded-full hover:bg-gray-300 focus:outline-none transition"
+          data-carousel-next
+        >
+          <svg
+            className="w-5 h-5 text-gray-600"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 5l7 7-7 7"
+            ></path>
+          </svg>
+        </button>
       </div>
-    </main>
+
+      <p className="mt-5 text-center text-gray-700 dark:text-gray-300">
+        This carousel slider component is part of a larger, open-source library
+        of Tailwind CSS components. Learn more by going to the official
+        <a
+          className="text-blue-600 hover:underline"
+          href="https://flowbite.com/docs/getting-started/introduction/"
+          target="_blank"
+        >
+          Flowbite Documentation
+        </a>
+        .
+      </p>
+      <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+    </div>
   );
 };
 

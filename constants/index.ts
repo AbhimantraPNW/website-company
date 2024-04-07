@@ -3,7 +3,7 @@ export const NAV_LINKS = [
     { href: '/', key: 'home', label: 'Home' },
     { href: '/about_us', key: 'about_us', label: 'About Us' },
     { href: '/services', key: 'services ', label: 'Services ' },
-    { href: '/teams', key: 'teams', label: 'Teams' },
+    // { href: '/teams', key: 'teams', label: 'Teams' },
   ];
   
   
@@ -14,28 +14,42 @@ export const NAV_LINKS = [
       icon: '/people.svg',
       variant: 'green',
       description:
-        'Makasih yaaa kak gelas nya, suka dan kepake bgt buat kopi. Keep it up!',
+        '"Makasih yaaa kak gelas nya, suka dan kepake bgt buat kopi. Keep it up!."',
     },
     {
       name: 'Dinda Kanyadewi',
       icon: '/people.svg',
       variant: 'green',
       description:
-        "Temen2ku pada suka sama hadiah mug nya, thanks ya patera",
+        '"Temen2ku pada suka sama hadiah mug nya, thanks ya patera."',
     },
     {
-      name: 'Imran Hanafi',
+      name: 'Miranda Lova',
       icon: '/people.svg',
       variant: 'green',
       description:
-        'Mantap bung gelas nya, cakep! Mudahan makin banyak promo kedepan nya ya',
+        '"Mantap bung gelas nya, cakep! Mudahan makin banyak promo kedepan nya ya."',
     },
     {
-      name: 'Zelius Sinaga',
+      name: 'Miranda Anderson',
       icon: '/people.svg',
       variant: 'orange',
       description:
-        'Nice cups bro, ini pas bgt dipake buat v60, rasanya lebih dapet',
+        '"Nice cups bro, ini pas bgt dipake buat v60, rasanya lebih dapet."',
+    },
+    {
+      name: 'Miranda Anastasya',
+      icon: '/people.svg',
+      variant: 'orange',
+      description:
+        '"Nice cups bro, ini pas bgt dipake buat v60, rasanya lebih dapet."',
+    },
+    {
+      name: 'Miranda Charlotte',
+      icon: '/people.svg',
+      variant: 'orange',
+      description:
+        '"Nice cups bro, ini pas bgt dipake buat v60, rasanya lebih dapet."',
     },
   ];
   
