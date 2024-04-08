@@ -239,13 +239,6 @@ strong::before {
   strong::before {
     width: calc(85% + 4px);
   }
-
-  .carousel {
-    width: calc(50%);
-    margin-left: 80px;
-    padding: 10px;
-    padding-bottom: 10px;
-  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -253,4 +246,12 @@ strong::before {
     background-color: #fff; 
     color: #000
   }
+}
+
+:root {
+  color-scheme: only light;
+}
+
+#my-onlylight-element {
+  color-scheme: only light;
 }
