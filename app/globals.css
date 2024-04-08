@@ -241,7 +241,7 @@ strong::before {
   }
 
   .carousel {
-    width: calc(60% + 4px);
+    width: calc(50%);
     margin-left: 80px;
     padding: 10px;
     padding-bottom: 10px;
