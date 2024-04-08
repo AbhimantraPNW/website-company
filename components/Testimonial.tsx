@@ -36,9 +36,9 @@ const TestimonialList = () => {
 
   if (isMobile) {
     return (
-      <Swiper scrollbar={{ hide: true }} modules={[Scrollbar]} className="padding-container max-container">
+      <Swiper scrollbar={{ hide: false }} modules={[Scrollbar]} className="padding-container max-container">
         {TESTIMONI.map((testi) => (
-          <SwiperSlide key={testi.name}>
+          <SwiperSlide>
             <TestiCust
               name={testi.name}
               icon={testi.icon}

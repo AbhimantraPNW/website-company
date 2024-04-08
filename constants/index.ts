@@ -14,21 +14,21 @@ export const NAV_LINKS = [
       icon: '/people.svg',
       variant: 'green',
       description:
-        '"Makasih yaaa kak gelas nya, suka dan kepake bgt buat kopi. Keep it up!."',
+        '"Makasih yaaa kak gelas nya, suka dan kepake bgt buat kopi. Thank."',
     },
     {
       name: 'Dinda Kanyadewi',
       icon: '/people.svg',
       variant: 'green',
       description:
-        '"Temen2ku pada suka sama hadiah mug nya, thanks ya patera."',
+        '"Temen2ku pada suka sama hadiah mug nya, thanks"',
     },
     {
       name: 'Miranda Lova',
       icon: '/people.svg',
       variant: 'green',
       description:
-        '"Mantap bung gelas nya, cakep! Mudahan makin banyak promo kedepan nya ya."',
+        '"Mantap bung gelas nya, cakep! Mudahan tambah sukses"',
     },
     {
       name: 'Miranda Anderson',

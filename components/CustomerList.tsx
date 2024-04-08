@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import React, { useEffect } from "react";
 
@@ -15,14 +15,14 @@ export const CustomerList = () => {
 
     prevButton.addEventListener("click", () => {
       carousel.scrollBy({
-        left: -carousel.offsetWidth, 
+        left: -carousel.offsetWidth,
       });
     });
 
     nextButton.addEventListener("click", () => {
       carousel.scrollBy({
-        left: carousel.offsetWidth , 
-        behavior: "smooth"
+        left: carousel.offsetWidth,
+        behavior: "smooth",
       });
     });
 
@@ -37,46 +37,71 @@ export const CustomerList = () => {
       <div className="relative">
         <div className="carousel w-full flex overflow-x-auto snap">
           {/* Adjust the margin-right to create a gap between cards */}
-          <div className="carousel-item flexCenter gap-4" style={{ marginRight: "10px" }}>
+          <div
+            className="carousel-item flexCenter gap-4"
+            style={{ marginRight: "10px" }}
+          >
             <div className="p-4 py-10 bg-white rounded-lg shadow-md">
               {/* Adjust the width of each card */}
-              <img src="/c-semusim.PNG" alt="Image 1" className="w-64 h-48 object-cover mb-4 rounded-lg" />
-              
+              <img
+                src="/c-semusim.PNG"
+                alt="Image 1"
+                className="w-64 h-48 object-cover mb-4 rounded-lg"
+              />
+
               <p className="text-gray-700">IG: @semusim_coffee</p>
             </div>
             <div className="p-4 py-10 bg-white rounded-lg shadow-md">
-              <img src="/c-awcoffee.jpg" alt="Image 2" className="w-64 h-48 object-cover mb-4 rounded-lg" />
-              
-              <p className="text-gray-700">IG: @rumah_angkasa</p>
+              <img
+                src="/c-semudakopi.PNG"
+                alt="Image 2"
+                className="w-64 h-48  object-cover mb-4 rounded-lg"
+              />
+
+              <p className="text-gray-700">IG: @semudakopi</p>
             </div>
             <div className="p-4 py-10 bg-white rounded-lg shadow-md">
-              <img src="/c-eaterybykomma.PNG" alt="Image 3" className="w-64 h-48 object-cover mb-4 rounded-lg" />
-              
+              <img
+                src="/c-eaterybykomma.PNG"
+                alt="Image 3"
+                className="w-64 h-48  object-cover mb-4 rounded-lg"
+              />
+
               <p className="text-gray-700">IG: @eaterybykomma</p>
             </div>
-            
-          
           </div>
-            <div className="carousel-item flexCenter gap-4" style={{ marginRight: "10px" }}>
+          <div
+            className="carousel-item flexCenter gap-4"
+            style={{ marginRight: "10px" }}
+          >
             <div className="p-4 py-10 bg-white rounded-lg shadow-md">
-              <img src="/c-awor.PNG" alt="Image 4" className="w-64 h-48 object-cover mb-4 rounded-lg" />
-              
+              <img
+                src="/c-awor.PNG"
+                alt="Image 4"
+                className="w-64 h-48 object-cover mb-4 rounded-lg"
+              />
+
               <p className="text-gray-700">IG: @awor.coffee</p>
             </div>
             <div className="p-4 py-10 bg-white rounded-lg shadow-md">
-              <img src="/c-safti.PNG" alt="Image 4" className="w-64 h-48 object-cover mb-4 rounded-lg" />
-              
+              <img
+                src="/c-safti.PNG"
+                alt="Image 5"
+                className="w-64 h-48 object-cover mb-4 rounded-lg"
+              />
+
               <p className="text-gray-700">IG: @safti.coffee.space</p>
             </div>
             <div className="p-4 py-10 bg-white rounded-lg shadow-md">
-              <img src="/c-kedaiangkasa.PNG" alt="Image 4" className="w-64 h-48 object-cover mb-4 rounded-lg" />
-              
+              <img
+                src="/c-kedaiangkasa.PNG"
+                alt="Image 6"
+                className="w-64 h-48 object-cover mb-4 rounded-lg"
+              />
+
               <p className="text-gray-700">IG: @rumah_angkasa</p>
             </div>
-
-            </div>
-          
-        
+          </div>
         </div>
 
         <div className="absolute inset-y-0 left-0 flex items-center justify-start pl-4">

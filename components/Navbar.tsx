@@ -3,11 +3,28 @@
 import { NAV_LINKS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
-
-
+import { useRouter } from "next/router";
+import React, { useEffect, useState } from "react";
 
 const Navbar: React.FC = () => {
+  const handleScroll = () => {
+    const nav = document.querySelector("nav");
+    if (nav) {
+      if (window.scrollY > 0) {
+        nav.style.backgroundColor = "rgba(0, 0, 0, 0.5)"; // Transparent black color
+      } else {
+        nav.style.backgroundColor = "black"; // Transparent
+      }
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -15,8 +32,14 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="flexBetween max-container padding-container bg-indigo-200 relative z-30 py-1">
+    <nav
+      className="flexBetween max-container padding-container bg-black text-white relative z-30 py-1"
+      style={{ height: "100px", position: "sticky", top: 0 }}
+    >
+      <Link href="/">
         <Image src="logoo-new.svg" alt="logo" width={70} height={70} />
+      </Link>
+
       <ul className="hidden h-full gap-12 lg:flex mr-20">
         {NAV_LINKS.map((link) => (
           <Link
@@ -87,8 +110,7 @@ const Navbar: React.FC = () => {
               >
                 Services
               </a>
-              <form method="POST" action="/teams" role="none">
-              </form>
+              <form method="POST" action="/teams" role="none"></form>
             </div>
           </div>
         )}

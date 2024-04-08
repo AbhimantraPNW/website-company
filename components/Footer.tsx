@@ -5,7 +5,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="flexCenter mb-24 mt-24 bg-indigo-200">
+    <footer className="flexCenter mb-24 mt-24 ">
       <div className="padding-container max-container flex flex-col w-full gap-14">
         <div className="flex flex-col md:flex-row items-start justify-center gap-[10%]">
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1 mt-9 mr-20">
