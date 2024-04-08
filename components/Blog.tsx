@@ -56,7 +56,7 @@ const Blog = async () => {
             <div className="flex-shrink-0">
               <img
                 className="h-60 w-full object-cover"
-                src="/workshop.PNG"
+                src="/workshop-2.PNG"
                 alt="Workshop Image"
               />
             </div>
