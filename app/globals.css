@@ -249,10 +249,8 @@ strong::before {
 }
 
 @media (prefers-color-scheme: dark) {
-  /* Override dark mode styles with custom styles */
   body {
-    background-color: #fff !important; /* Set background color to white */
-    color: #000 !important; /* Set text color to black */
+    background-color: #fff; 
+    color: #000
   }
-
 }
