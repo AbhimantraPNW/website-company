@@ -240,7 +240,19 @@ strong::before {
     width: calc(85% + 4px);
   }
 
-  .carousel-item {
-    flex: 0 0 calc(100% / 3); /* Ensure three images per slide on mobile */
+  .carousel {
+    width: calc(60% + 4px);
+    margin-left: 80px;
+    padding: 10px;
+    padding-bottom: 10px;
   }
+}
+
+@media (prefers-color-scheme: dark) {
+  /* Override dark mode styles with custom styles */
+  body {
+    background-color: #fff !important; /* Set background color to white */
+    color: #000 !important; /* Set text color to black */
+  }
+
 }

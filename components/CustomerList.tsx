@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
 export const CustomerList = () => {
   useEffect(() => {
@@ -55,7 +55,7 @@ export const CustomerList = () => {
               <img
                 src="/c-semudakopi.PNG"
                 alt="Image 2"
-                className="w-64 h-48  object-cover mb-4 rounded-lg"
+                className="w-64 h-48 object-cover mb-4 rounded-lg"
               />
 
               <p className="text-gray-700">IG: @semudakopi</p>

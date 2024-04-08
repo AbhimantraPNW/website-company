@@ -3,12 +3,20 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
+import { url } from "inspector";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Patera Company Profile",
+  title: "Patera Pottery",
   description: "Company UI/UX App for pottery",
+  icons: {
+    icon: [
+      {
+        url: "/logo-patera.png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -18,10 +26,10 @@ export default function RootLayout({
 }>) {
   return (
     <html className="h-screen" lang="en">
-      <body>  
+      <body>
         <Navbar />
         <main className="relative overflow-hidden">{children}</main>
-      <Footer />
+        <Footer />
       </body>
     </html>
   );
