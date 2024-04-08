@@ -236,7 +236,7 @@ strong::before {
 
 @media (max-width: 768px) {
   .swiper-slide {
-    padding: 30px;
+    padding: 32px;
   }
 
   strong::before {
