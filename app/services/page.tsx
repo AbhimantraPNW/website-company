@@ -1,11 +1,7 @@
 "use client";
-import React, { useRef, useState } from "react";
 
-import { CiImport } from "react-icons/ci";
-import { CiClock1 } from "react-icons/ci";
+import { CiClock1, CiImport } from "react-icons/ci";
 import useMediaQuery from "../lib/mediaquery";
-import { Navigation } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -21,7 +17,7 @@ const Services = () => {
           Services
         </div>
         <div className="overflow-hidden aspect-video cursor-pointer rounded-xl relative group mt-5">
-          <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-white flex items-end">
+          <div className="rounded-xl z-50 opacity-100 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-white flex items-end">
             <div className="p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out">
               <div className="font-bold">Ready Stock</div>
 
@@ -40,7 +36,7 @@ const Services = () => {
         </div>
 
         <div className="overflow-hidden aspect-video cursor-pointer rounded-xl relative group mt-5">
-          <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-white flex items-end">
+          <div className="rounded-xl z-50 opacity-100 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-white flex items-end">
             <div className="p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out">
               <div className="font-bold">Custom Product</div>
 
@@ -185,7 +181,7 @@ const Services = () => {
   }
 
   return (
-    <section className="w-full mx-auto py-10">
+    <section className="w-full mx-auto py-10 sm:block xs:block xs:w-full hidden">
       <div className="w-fit pb-1 px-2 mx-4 rounded-md text-2xl font-semibold border-b-2 border-orange-300 dark:border-b-2 dark:border-yellow-600">
         Services
       </div>
@@ -253,7 +249,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="md:block sm:hidden xs:hidden lg:w-[50%] xs:w-full ">
+        <div className="md:block sm:hidden xs:hidden lg:w-[50%] xs:w-full">
           <img
             className="lg:rounded-t-lg xs:rounded-sm"
             src="/custom3.jpg"
@@ -385,7 +381,8 @@ const Services = () => {
         </div>
       </div>
     </section>
-  );
+  )
+
 };
 
 export default Services;
