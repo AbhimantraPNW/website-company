@@ -6,8 +6,8 @@ import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 
 const Navbar: React.FC = () => {
-  const dropDownRef = useRef<HTMLDivElement>(null)
-  const [isOpen, setIsOpen] = useState(false)
+  const dropDownRef = useRef<HTMLDivElement>(null);
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleScroll = () => {
     const nav = document.querySelector("nav");
@@ -28,22 +28,25 @@ const Navbar: React.FC = () => {
   }, []);
 
   useEffect(() => {
-    const handleClickOutside = (event: MouseEvent)  => {
-      if (isOpen && dropDownRef.current && !dropDownRef.current.contains(event.target as Node)) {
-        setIsOpen(false)
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        isOpen &&
+        dropDownRef.current &&
+        !dropDownRef.current.contains(event.target as Node)
+      ) {
+        setIsOpen(false);
       }
-    }
-
+    };
     document.addEventListener("mousedown", handleClickOutside);
 
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, [isOpen])
-  
+  }, [isOpen]);
+
   const toggleDropdown = () => {
-    setIsOpen(!isOpen)
-  }
+    setIsOpen(!isOpen);
+  };
 
   return (
     <nav
@@ -51,7 +54,13 @@ const Navbar: React.FC = () => {
       style={{ height: "100px", position: "sticky", top: 0 }}
     >
       <Link href="/">
-        <Image src="logoo-new.svg" alt="logo" width={90} height={70} className="mt-3" />
+        <Image
+          src="logoo-new.svg"
+          alt="logo"
+          width={90}
+          height={70}
+          className="mt-3"
+        />
       </Link>
 
       <ul className="hidden h-full gap-12 lg:flex mr-20">
@@ -66,7 +75,10 @@ const Navbar: React.FC = () => {
         ))}
       </ul>
 
-      <div className="relative text-left lg:hidden inline-block" ref={dropDownRef}>
+      <div
+        className="relative text-left lg:hidden inline-block"
+        ref={dropDownRef}
+      >
         <div>
           <button
             type="button"
@@ -124,6 +136,14 @@ const Navbar: React.FC = () => {
                 id="menu-item-2"
               >
                 Services
+              </a>
+              <a
+                href="/teams"
+                className="text-gray-700 block px-4 py-2 text-sm"
+                role="menuitem"
+                id="menu-item-2"
+              >
+                Teams
               </a>
               <form method="POST" action="/teams" role="none"></form>
             </div>

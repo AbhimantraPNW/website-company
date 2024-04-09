@@ -32,16 +32,14 @@ const Blog = async () => {
                   </p>
                   <div className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">
-                      Boost your conversion rate
+                      Education workshop at UGM
                     </p>
                     <p className="mt-3 text-base text-gray-500 line-clamp-6">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Architecto accusantium praesentium eius, ut atque fuga
-                      culpa, similique sequi cum eos quis dolorum. Architecto
-                      accusantium praesentium eius, ut atque fuga culpa,
-                      similique sequi cum eos quis dolorum. similique sequi cum
-                      eos quis dolorum. Architecto accusantium praesentium eius,
-                      ut atque fuga culpa, similique sequi cum eos quis dolorum
+                      Unleash your creativity and dive into the timeless art of
+                      pottery at our educational workshop. Designed for
+                      enthusiasts of all skill levels, our immersive experience
+                      offers a hands-on exploration of clay shaping techniques
+                      guided by seasoned artisans.
                     </p>
                   </div>
                 </div>
@@ -71,13 +69,11 @@ const Blog = async () => {
                       Let's see our production process
                     </p>
                     <p className="mt-3 text-base text-gray-500 line-clamp-6">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Architecto accusantium praesentium eius, ut atque fuga
-                      culpa, similique sequi cum eos quis dolorum. Architecto
-                      accusantium praesentium eius, ut atque fuga culpa,
-                      similique sequi cum eos quis dolorum. similique sequi cum
-                      eos quis dolorum. Architecto accusantium praesentium eius,
-                      ut atque fuga culpa, similique sequi cum eos quis dolorum
+                      Immerse yourself in the enchanting world of pottery at our
+                      workshop, where clay becomes a canvas for boundless
+                      creativity. Led by experienced artisans, this hands-on
+                      experience invites participants to explore the intricate
+                      techniques of molding, shaping, and glazing.
                     </p>
                   </div>
                 </div>
@@ -102,16 +98,15 @@ const Blog = async () => {
                   </p>
                   <div className="mt-2 block">
                     <p className="text-xl font-semibold text-gray-900">
-                      So many adorable cups in our store
+                      The Pottery Store of Enchanting Cups
                     </p>
                     <p className="mt-3 text-base text-gray-500 line-clamp-6">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Architecto accusantium praesentium eius, ut atque fuga
-                      culpa, similique sequi cum eos quis dolorum. Architecto
-                      accusantium praesentium eius, ut atque fuga culpa,
-                      similique sequi cum eos quis dolorum. similique sequi cum
-                      eos quis dolorum. Architecto accusantium praesentium eius,
-                      ut atque fuga culpa, similique sequi cum eos quis dolorum
+                      Step into our pottery store, a delightful haven where
+                      craftsmanship meets charm. Nestled among
+                      shelves adorned with handcrafted wonders, each cup exudes
+                      its own unique personality, inviting you to explore the
+                      intricate details that make them
+                      truly special.
                     </p>
                   </div>
                 </div>

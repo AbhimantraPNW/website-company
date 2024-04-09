@@ -13,7 +13,9 @@ const page = () => {
       <div className="max-w-2xl mx-auto">
         <div className="mt-3 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
           <div className="">
-            <h1 className="text-gray-900 font-bold text-3xl mb-2">Store</h1>
+            <h1 className="text-gray-900 font-bold text-3xl mb-2">
+              Unveiling Artistry: Exploring Our Pottery Store
+            </h1>
             <p className="text-gray-700 text-xs mt-2">
               Written By:
               <span className="text-indigo-600 font-medium hover:text-gray-900 transition duration-500 ease-in-out">
@@ -21,48 +23,44 @@ const page = () => {
               </span>
             </p>
             <p className="text-base leading-8 my-5">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              Unveiling Artistry: Exploring Our Pottery Store Welcome to our
+              pottery store, a sanctuary where craftsmanship flourishes and
+              every piece tells a story. As you step through our doors, you're
+              greeted by an array of exquisite creations, each bearing the mark
+              of skilled artisans and the essence of their dedication. From
+              elegant vases to charming mugs and everything in between, our
+              collection reflects a fusion of tradition and innovation, curated
+              to inspire and delight even the most discerning of tastes.
             </p>
             <h3 className="text-2xl font-bold my-5">
-              #1. What is Lorem Ipsum?
+              Craftsmanship Redefined: A Feast for the Senses
             </h3>
             <p className="text-base leading-8 my-5">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              Prepare to be captivated by the sensory delights awaiting you in
+              our pottery store. Run your fingers along the smooth curves of a
+              meticulously glazed pot, marvel at the intricate patterns adorning
+              a handmade bowl, and revel in the earthy aroma of freshly fired
+              clay. Each piece exudes a sense of authenticity and authenticity,
+              inviting you to appreciate the time-honored techniques and
+              attention to detail that go into its creation. Whether you're a
+              seasoned collector or a casual admirer, our store offers an
+              immersive experience that celebrates the artistry of pottery in
+              all its forms.
             </p>
-            <blockquote className="border-l-4 text-base italic leading-8 my-5 p-5 text-indigo-600">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s
-            </blockquote>
+            <h3 className="text-2xl font-bold my-5">
+              Bringing Beauty Home: Finding Your Perfect Piece
+            </h3>
             <p className="text-base leading-8 my-5">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              As you wander through our pottery store, allow yourself to be
+              drawn to the piece that speaks to you. Whether it's a whimsical
+              teapot that sparks joy or a sophisticated serving platter that
+              promises to elevate your next dinner party, our collection offers
+              something for every aesthetic sensibility and occasion. Take your
+              time, explore our offerings, and trust your instincts as you
+              select the perfect addition to your home or the ideal gift for a
+              loved one. With each purchase, you not only acquire a beautiful
+              object but also become part of a legacy that celebrates
+              craftsmanship, creativity, and the timeless allure of pottery.
             </p>
           </div>
         </div>
