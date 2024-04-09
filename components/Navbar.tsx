@@ -3,9 +3,12 @@
 import { NAV_LINKS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const Navbar: React.FC = () => {
+  const dropDownRef = useRef<HTMLDivElement>(null)
+  const [isOpen, setIsOpen] = useState(false)
+
   const handleScroll = () => {
     const nav = document.querySelector("nav");
     if (nav) {
@@ -24,11 +27,23 @@ const Navbar: React.FC = () => {
     };
   }, []);
 
-  const [isOpen, setIsOpen] = useState(false);
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent)  => {
+      if (isOpen && dropDownRef.current && !dropDownRef.current.contains(event.target as Node)) {
+        setIsOpen(false)
+      }
+    }
 
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isOpen])
+  
   const toggleDropdown = () => {
-    setIsOpen(!isOpen);
-  };
+    setIsOpen(!isOpen)
+  }
 
   return (
     <nav
@@ -51,7 +66,7 @@ const Navbar: React.FC = () => {
         ))}
       </ul>
 
-      <div className="relative text-left lg:hidden inline-block">
+      <div className="relative text-left lg:hidden inline-block" ref={dropDownRef}>
         <div>
           <button
             type="button"
