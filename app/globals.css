@@ -255,3 +255,11 @@ strong::before {
 #my-onlylight-element {
   color-scheme: only light;
 }
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+

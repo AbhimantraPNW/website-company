@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Button from "./Button";
-import Link from "next/link";
-import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
