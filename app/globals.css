@@ -232,6 +232,10 @@ strong::before {
 }
 
 @media (max-width: 768px) {
+  .carousel {
+    padding: 64px;
+  }
+
   .swiper-slide {
     padding: 32px;
   }

@@ -4,6 +4,7 @@ import useMediaQuery from "@/app/lib/mediaquery";
 import { useEffect } from "react";
 
 export const CustomerList = () => {
+  
   useEffect(() => {
     const carousel = document.querySelector(".carousel") as HTMLElement;
     const prevButton = document.querySelector(".carousel-control-prev");
