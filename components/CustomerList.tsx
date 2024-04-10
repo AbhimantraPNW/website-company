@@ -129,7 +129,7 @@ export const CustomerList = () => {
             </div>
           </div>
 
-          <div className="absolute inset-y-0 left-0 flex items-center justify-start pl-4">
+          <div className="absolute inset-y-0 left-0 flex items-center justify-start">
             <button className="carousel-control-prev bg-gray-800 hover:bg-gray-700 text-white rounded-full p-2 focus:outline-none">
               <svg
                 className="w-6 h-6"
@@ -147,7 +147,7 @@ export const CustomerList = () => {
               </svg>
             </button>
           </div>
-          <div className="absolute inset-y-0 right-0 flex items-center justify-end pr-4">
+          <div className="absolute inset-y-0 right-0 flex items-center justify-end">
             <button className="carousel-control-next bg-gray-800 hover:bg-gray-700 text-white rounded-full p-2 focus:outline-none">
               <svg
                 className="w-6 h-6"
